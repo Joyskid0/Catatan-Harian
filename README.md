@@ -13,7 +13,6 @@ Halo! Repository ini saya buat sebagai tempat menyimpan catatan, eksperimen, dan
 
 > Jangan pernah remehkan catatan kecil, karena dari situlah awal kamu jadi besar.
 
-===============================================
  ███╗   ██╗ █████╗ ██╗   ██╗ █████╗ ███╗  ██╗ 
  ████╗  ██║██╔══██╗██║   ██║██╔══██╗████╗ ██║
  ██╔██╗ ██║███████║██║   ██║███████║██╔██╗██║
