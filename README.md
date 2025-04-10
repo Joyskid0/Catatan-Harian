@@ -32,7 +32,7 @@ Persyaratan Awal
 2. Koneksi internet (hanya dibutuhkan untuk mengunduh file ISO dan membuat USB bootable).
 3. USB flash drive minimal 8 GB.
 4. Ruang kosong di hard drive atau SSD minimal 30 GB untuk Linux.
-5. Backup semua data penting dari Windows untuk menghindari kehilangan data. <==== harus backup jangan sebab kita tidak tau rejeki apa yang datang
+5. Backup semua data penting dari Windows untuk menghindari kehilangan data. <==== harus backup sebab kita tidak tau rejeki apa yang datang
 
 Langkah 1: Unduh Linux Mint Cinnamon
 1. Buka situs resmi distro linuxnya
