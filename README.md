@@ -34,7 +34,7 @@ Persyaratan Awal
 4. Ruang kosong di hard drive atau SSD minimal 30 GB untuk Linux.
 5. Backup semua data penting dari Windows untuk menghindari kehilangan data. <==== harus backup sebab kita tidak tau rejeki apa yang datang
 
-Langkah 1: Unduh Linux Mint Cinnamon
+Langkah 1: Unduh Linux
 1. Buka situs resmi distro linuxnya
 2. Pilih edisi sesuai kebutuhan. <==== kalo mau maen game di windows aja dek gausah make linux, gaguna soalnya
 3. Klik salah satu mirror (server) untuk mengunduh file ISO.
