@@ -123,6 +123,80 @@ Langkah 9: Dual Boot Berhasil
 4. Kamu bisa memilih salah satu sesuai kebutuhan.
 
 
+==============================================================================================
+
+
+1. Backup Data Penting
+
+Sebelum mulai, pindahkan semua data penting dari Linux ke penyimpanan eksternal seperti flashdisk atau hard disk. Setelah partisi dihapus, semua data Linux akan hilang permanen.
+
+2. Hapus Partisi Linux
+
+1. Boot ke Windows 11.
+
+
+2. Tekan tombol Win + X, lalu pilih Disk Management (Manajemen Disk).
+
+
+3. Cari partisi yang digunakan Linux. Ciri-cirinya biasanya:
+
+Tidak memiliki drive letter (misalnya tidak ada D:, E:, dll).
+
+Formatnya bukan NTFS, melainkan EXT4 atau terdeteksi sebagai "Primary Partition" tanpa label.
+
+
+
+4. Klik kanan partisi tersebut, pilih Delete Volume.
+
+
+5. Setelah dihapus, partisi berubah menjadi Unallocated space.
+
+
+6. Anda bisa:
+
+Menggabungkannya ke partisi Windows (biasanya C:) dengan memilih Extend Volume, atau
+
+Membuat drive baru dan memformatnya ke NTFS.
+
+
+
+
+3. Perbaiki Bootloader Windows
+
+Setelah partisi dihapus, GRUB (menu boot Linux) masih ada. Untuk mengembalikannya ke bootloader Windows, lakukan langkah berikut:
+
+1. Buka Command Prompt dengan hak administrator (klik Start, ketik "cmd", pilih Run as Administrator).
+
+
+2. Ketik perintah di bawah ini satu per satu, tekan Enter setiap selesai:
+
+bcdedit /enum
+bootrec /fixmbr
+bootrec /fixboot
+bootrec /scanos
+bootrec /rebuildbcd
+
+
+3. Tutup Command Prompt.
+
+
+
+4. Atur Boot Priority di BIOS Acer
+
+1. Restart laptop.
+
+
+2. Tekan tombol F2 (atau Del) saat booting untuk masuk ke BIOS.
+
+
+3. Pergi ke tab Boot.
+
+
+4. Pastikan Windows Boot Manager berada di urutan pertama pada Boot Priority.
+
+
+5. Simpan pengaturan (tekan F10) lalu restart laptop.
+
 
 
 
